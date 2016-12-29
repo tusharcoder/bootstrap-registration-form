@@ -4,7 +4,7 @@
 @Email:  tamyworld@gmail.com
 @Filename: index.html
 @Last modified by:   tusharcoder
-@Last modified time: 2016-12-30T04:51:42+05:30
+@Last modified time: 2016-12-30T04:58:42+05:30
 -->
 <!DOCTYPE html>
 <html>
@@ -46,11 +46,20 @@
       </div>
 
       <div class="form-group">
-        <label for="radioInput1"></label>
-        <input type="date" name="dob" class="form-control" id="dateInput1" placeholder="Date of Birth:">
-      </div>
-      <div class="alert alert-danger">
-        *Date of birth is required
+        <label>Gender</label>
+        <div class="alert alert-danger">
+          *Select your Gender
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" id="radioInput1" value="Male">Male
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" id="radioInput2" value="Female">Female
+          </label>
+        </div>
       </div>
 
     </form>
